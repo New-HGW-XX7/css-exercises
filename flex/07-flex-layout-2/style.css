@@ -42,17 +42,16 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 32px;
-  gap: 30px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 200px;
-  flex: 1 0 25%;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
 }
 
 ul {
